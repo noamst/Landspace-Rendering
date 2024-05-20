@@ -1,7 +1,7 @@
 Topics in computerized graphics  project- Febuary 2023
 
 Overview 
-We made a 3D scene from a heightmap image with the ability to increase/decrease the quality    by adding/removing triangles  (meaning ,  we sample more points and thus have more triangles) .
+I made a 3D scene from a heightmap image with the ability to increase/decrease the quality    by adding/removing triangles  (meaning ,  we sample more points and thus have more triangles) .
 :Goals
 Build a 3D height map from an image  
 Interaction – mouse picking of triangle and 3D model translate, scale, rotate  
@@ -18,6 +18,7 @@ For the rain we've used a stack that keeps the particles and redraws them in eve
 Viewports  
 Side view camera
  
+![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/71270b52-200a-448a-9ff5-312ffb08b9b3)
 
 
 
@@ -26,9 +27,7 @@ Side view camera
 Top view camera
  
 
-
-
-
+![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/2f2ec500-2fe3-4960-8be8-bb9bb0d22984)
 
 
 
@@ -41,13 +40,16 @@ Top view camera
 
 
 Free Roam Camera
- 
-    Up Arrow – move forward
+
+![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/7a22436e-dd9b-4dc7-8313-fd38482f14de)
+
+
+Up Arrow – move forward
 Down Arrow – move backward
- Left Arrow – rotate left
- Right Arrow – rotate right 
- Y – scale up
- H – scale down
+Left Arrow – rotate left
+Right Arrow – rotate right 
+Y – scale up
+H – scale down
 
 
 
@@ -65,11 +67,17 @@ Down Arrow – move backward
 
 
 
-We have also implemented the following environmental simulations
+I have also implemented the following environmental simulations
 Rain&Fog
 With rain
+
+![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/ad9404b9-69a3-4a5d-b9b1-1b9eabf6137a)
+
  
 Without Rain
+
+![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/dc6c7800-cd9c-46f4-9bd8-f564240755f1)
+
  
 In order to strat rain press L
 In order to stop rain press L again
@@ -86,7 +94,11 @@ In order to decrease to amount of rain press O
 
 
 With fog
- 
+
+ ![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/5adf88e1-e4db-4f50-a988-93bbf58fabe7)
+
+![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/18d7ea01-3744-4ad9-bdb0-2d6eb4d9b51f)
+
  
 In order to create fog press K
 In order to stop the fog press K again
@@ -108,8 +120,12 @@ The fog is design in a way that the farther we get away from the map, the fogies
 
 Grid Resolution
 Up sampling
+![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/7a3e4e90-809b-4c5d-bce6-45974d20ac6f)
+
  
 Down Sampling
+![image](https://github.com/noamst/Landspace-Rendering/assets/19705801/e2089d98-41bf-41f1-9d1c-0c10d2f61407)
+
  
 From high to low resolution
 
